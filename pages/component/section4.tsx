@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import Phone from '../asset/images/phone.png'
-import sectionImage from '../asset/images/sectionImage.png'
+import Phone from '../../asset/images/phone.png'
+import sectionImage from '../../asset/images/sectionImage.png'
 
 export default function section4() {
     return (

@@ -1,11 +1,11 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import Phone from '../asset/images/phone.png'
+import Phone from '../../asset/images/phone.png'
 
 export default function Section6(){
     return(
-        <div className="bg-gray justify-around items-center px-5 lg:flex lg:px-32 lg:py-10 pb-5">
+        <div className="bg-gray justify-around items-center px-5 lg:flex lg:px-32 lg:py-14 pb-5">
           <motion.div
             className='text-center lg:hidden'
             initial='hidden'

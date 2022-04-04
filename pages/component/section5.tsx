@@ -1,11 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
-import PlayStore from '../asset/images/playStore.png'
-import ApleStore from '../asset/images/apleStore.png'
-import Snap from '../asset/images/icon/snap.png'
-import Tick from '../asset/images/icon/tick.png'
-import Smile from '../asset/images/icon/smile.png'
-import Phone from '../asset/images/phone.png'
+import PlayStore from '../../asset/images/playStore.png'
+import ApleStore from '../../asset/images/apleStore.png'
+import Snap from '../../asset/images/icon/snap.png'
+import Tick from '../../asset/images/icon/tick.png'
+import Smile from '../../asset/images/icon/smile.png'
+import Phone from '../../asset/images/phone.png'
 
 export default function Section5(){
     return(

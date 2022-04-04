@@ -1,11 +1,11 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import Phone from '../asset/images/phone.png'
+import Phone from '../../asset/images/phone.png'
 
 export default function Jumbotron() {
   return (
-    <div className="bg-gray justify-around items-center px-5 lg:flex lg:px-32 lg:py-10">
+    <div className="bg-gray justify-around items-center px-5 lg:flex lg:px-32 pt-20 lg:pb-10">
           <motion.div
             className='text-center lg:hidden'
             initial='hidden'

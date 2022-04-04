@@ -3,10 +3,10 @@ import Link from "next/link";
 import { AnimateSharedLayout } from "framer-motion";
 import { Component } from "react";
 import Image from "next/image";
-import Heart from '../asset/images/icon/heart.png'
-import Info from '../asset/images/icon/info.png'
-import Easy from '../asset/images/icon/easy.png'
-import Blog from '../asset/images/icon/blog.png'
+import Heart from '../../asset/images/icon/heart.png'
+import Info from '../../asset/images/icon/info.png'
+import Easy from '../../asset/images/icon/easy.png'
+import Blog from '../../asset/images/icon/blog.png'
 
 export default function Section3() {
   return (

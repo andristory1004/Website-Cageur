@@ -1,17 +1,17 @@
 import Link from "next/link"
 import Image from "next/image"
-import LinkedIn from '../asset/images/icon/linkedin.png'
-import IG from '../asset/images/icon/instagram.png'
-import Youtube from '../asset/images/icon/youtube.png'
-import Twitter from '../asset/images/icon/twitter.png'
-import Logo from '../asset/images/Logo.png'
+import LinkedIn from '../../asset/images/icon/linkedin.png'
+import IG from '../../asset/images/icon/instagram.png'
+import Youtube from '../../asset/images/icon/youtube.png'
+import Twitter from '../../asset/images/icon/twitter.png'
+import Logo from '../../asset/images/Logo.png'
 
 export default function Footer(){
     return(
         <div>
           <div className='lg:flex lg:px-10 lg:py-10 py-5 justify-center bg-gray px-5 lg:pb-20 pb-5'>
             <div className='lg:w-4/12 lg:px-2 space-y-5'>
-              <div className='text-center'>
+              <div className='text-center lg:text-left'>
                 <Link href="/">
                   <a>
                     <Image src={Logo} width={120} height={120} alt="Linked"></Image>
@@ -53,8 +53,8 @@ export default function Footer(){
                 </div>
               </div>
             </div>
-            <div className='flex justify-center lg:w-6/12'>
-              <div className=' w-1/2 lg:w-3/12 lg:px-2 mt-5 lg:mt-0 text-center lg:text-left space-y-1'>
+            <div className='flex justify-center text-center w-full lg:w-6/12'>
+              <div className=' w-full lg:w-3/12 lg:px-2 mt-5 lg:mt-0 lg:text-left space-y-1'>
                 <h5 className='text-xl font-bold pb-3'>
                   Product
                 </h5>
@@ -85,7 +85,7 @@ export default function Footer(){
                 </Link>
               </div>
 
-              <div className='w-1/2 lg:w-3/12 lg:px-2 mt-5 lg:mt-0 text-center lg:text-left space-y-1'>
+              <div className='w-full lg:w-3/12 lg:px-2 mt-5 lg:mt-0 lg:text-left space-y-1'>
                 <h5 className='text-xl font-bold pb-3'>
                   Resources
                 </h5>
