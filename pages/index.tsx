@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import 'tailwindcss/tailwind.css'
+import 'tw-elements';
 import Logo from '../asset/images/Logo.png'
 import Footer from './component/Footer'
 import Jumbotron from './component/jumbotron'
@@ -28,8 +29,7 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+       
 
       </Head>
       <section id="Navbar">

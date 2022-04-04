@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import 'tw-elements';
 import RSNurhayati from '../../asset/images/RSNurhayati.jpg'
 import RSIntanHusada from '../../asset/images/RSIntanHusada.jpg'
 import RSAnnisaQueen from '../../asset/images/RSAnnisaQueen.jpg'
