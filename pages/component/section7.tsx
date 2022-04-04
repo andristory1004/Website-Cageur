@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import RSNurhayati from '../../asset/images/RSNurhayati.jpg'
 import RSIntanHusada from '../../asset/images/RSIntanHusada.jpg'
-
+import RSAnnisaQueen from '../../asset/images/RSAnnisaQueen.jpg'
 export default function Section7() {
   return (
     <div className='pt-10 bg-gray'>
@@ -44,25 +44,28 @@ export default function Section7() {
 
         <div className="carousel-inner relative w-full overflow-hidden">
 
-        <div className="carousel-item active relative float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
-        className="block w-full"
-        alt="Motorbike Smoke"
-      />
-      <div className="carousel-caption hidden md:block absolute text-center">
-        <h5 className="text-xl">First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
+          <div className="carousel-item active relative float-left w-full">
+            <div className="block w-full justify-center text-center">
+              <Image
+                src={RSAnnisaQueen}
+                alt="RSIAnnisaQueen"
+              ></Image>
+            </div>
+            <div className="carousel-caption hidden md:block absolute text-center">
+              <h5 className="text-xl font-bold text-white ">RS Annisa Queen Garut</h5>
+              <p className='text-white'>
+                Resmi Bergabung menjadi Mitra Cageur App
+              </p>
+            </div>
+          </div>
 
 
           <div className="carousel-item relative float-left w-full">
             <div className="block w-full justify-center text-center">
-            <Image
-              src={RSIntanHusada}
-              alt="RSIntanHusada"
-            ></Image>
+              <Image
+                src={RSIntanHusada}
+                alt="RSIntanHusada"
+              ></Image>
             </div>
             <div className="carousel-caption hidden md:block absolute text-center">
               <h5 className="text-xl font-bold text-white ">RS Intan Husada Garut</h5>
@@ -75,10 +78,10 @@ export default function Section7() {
 
           <div className="carousel-item relative float-left w-full">
             <div className="block w-full justify-center text-center">
-            <Image
-              src={RSNurhayati}
-              alt="RS Nurhayati"
-            ></Image>
+              <Image
+                src={RSNurhayati}
+                alt="RS Nurhayati"
+              ></Image>
             </div>
             <div className="carousel-caption hidden md:block absolute text-center">
               <h5 className="text-xl font-bold text-white">RS Nurhayati Garut</h5>
