@@ -1,36 +1,18 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import 'tailwindcss/tailwind.css'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
-import sectionImage from '../asset/images/sectionImage.png'
-import { motion } from 'framer-motion'
+import 'tailwindcss/tailwind.css'
+import Logo from '../asset/images/Logo.png'
+import Footer from './component/Footer'
 import Jumbotron from './component/jumbotron'
 import Section3 from './component/section3'
 import Section4 from './component/section4'
 import Section5 from './component/section5'
 import Section6 from './component/section6'
 import Section7 from './component/section7'
-import Footer from './component/Footer'
-import Logo from '../asset/images/Logo.png'
-import Phone from '../asset/images/phone.png'
-import People from '../asset/images/people.png'
-import LinkedIn from '../asset/images/icon/linkedin.png'
-import IG from '../asset/images/icon/instagram.png'
-import Youtube from '../asset/images/icon/youtube.png'
-import Twitter from '../asset/images/icon/twitter.png'
-import PlayStore from '../asset/images/playStore.png'
-import ApleStore from '../asset/images/apleStore.png'
-import Snap from '../asset/images/icon/snap.png'
-import Tick from '../asset/images/icon/tick.png'
-import Smile from '../asset/images/icon/smile.png'
-import Heart from '../asset/images/icon/heart.png'
-import Info from '../asset/images/icon/info.png'
-import Easy from '../asset/images/icon/easy.png'
-import Blog from '../asset/images/icon/blog.png'
-import RSNurhayati from '../asset/images/RSNurhayati.jpg'
 
 
 
@@ -45,7 +27,6 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
