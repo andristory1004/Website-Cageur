@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import RSNurhayati from '../../asset/images/RSNurhayati.jpg'
 import RSIntanHusada from '../../asset/images/RSIntanHusada.jpg'
 import RSAnnisaQueen from '../../asset/images/RSAnnisaQueen.jpg'
 export default function Section7() {
@@ -79,7 +78,7 @@ export default function Section7() {
           <div className="carousel-item relative float-left w-full">
             <div className="block w-full justify-center text-center">
               <Image
-                src={RSNurhayati}
+                src={RSIntanHusada}
                 alt="RS Nurhayati"
               ></Image>
             </div>
