@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -5,7 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import 'tailwindcss/tailwind.css'
-import 'tw-elements';
 import Logo from '../asset/images/Logo.png'
 import Footer from './component/Footer'
 import Jumbotron from './component/jumbotron'
@@ -29,8 +29,8 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-       
-
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <section id="Navbar">
         <nav className="bg-gray pt-3 pb-3 lg:pb-0 fixed-top">
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 </button>
               </div>
             </div>
-            <div 
+            <div
               aria-labelledby="dropdownMenuButton1"
               className={`${open ? 'block' : 'hidden'} lg:space-x-5 lg:text-xl flex-col py-3 lg:py-0 lg:flex-row lg:flex dropdown-menu absolute lg:relative float-left px-5 lg:px-0 space-y-2 lg:space-y-0 bg-black bg-opacity-50 lg:bg-transparent rounded-xl`}>
               <Link href=""><a className="dropdown-item block hover:text-black transition hover:transition">Home</a></Link>
